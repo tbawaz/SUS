@@ -3,44 +3,76 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="sus.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="canvasjs/jquery.canvasjs.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="sus.js"></script>
 </head>
 
 <div id="header">
-	<div class="jumbo-header">SUS</div>
+	<div class="top-nav">
+		<img src="susLogo.png" class="logo-img"></img>
+		<a class="sus-link" href="http://www.smartusys.com/products/scm.aspx">Visit SUS</a>
+		<a class="share-buttons" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=" target="_blank"><img src="Facebook.png"></a>
+	</div>
+	<div class="jumbo-header">Smart Utility Systems</div>
 	<div class="head-text">The smart utility solution for smart energy usage</div>
-	<button class="go-now">Go Now</Button>
+	<button class="dl-now">Download Now</Button>
 </div>
 
 <div id="section">
-	<h2>SAVE</h2>
-	<div class="info-container">
-      <img class="img-circle" src="http://www.smartusys.com/images/SMW_Image.png">
-      <h2>Money</h2>
-	  <p>Set utility budget goals and save fast!</p>
-      <button class="learn-more" href="#">View details</button>
-    </div>
-    <div class="info-container">
-      <img class="img-circle" src="http://www.smartusys.com/images/SCM_Image.png">
-      <h2>Time</h2>
-      <p>Paying your bill or tracking usage has never been easier!</p>
-      <button class="learn-more" href="#">View details</button>
-    </div>
-    <div class="info-container">
-      <img class="img-circle" src="http://www.smartusys.com/images/SAB_Image.png">
-      <h2>Energy</h2>
-	  <p>Conserve energy the easy way!</p>
-      <button class="learn-more" href="#">View details</button>
-    </div>
+	 <div class="section1-text">Save</div>
+	 <div class="section1-text-med">Money, Time, Energy</div>
+	 <div class="image-box"></div>
+	 <button class="visit-now">See what SUS has to offer</Button>
+      
 </div>
 
 <div id="section-blue">
-	<h2>Interactive Graphs</h2>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+          <h3>Caption Text</h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
 </div>
 
 <div id="section">
-	<h2>Promo Video</h2>
+	<h2>Interactive Graphs</h2>
+	<div id="chartLine" style="height: 300px; width: 100%;"></div>
+	<div id="chartColumn" style="height: 300px; width: 100%;"></div>
 </div>
 
 <div id="section-blue">
