@@ -3,7 +3,8 @@
     <head>
         <link rel="stylesheet" type="text/css" href="sus.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="../jquery/jquery.avgrund.js-master/style/avgrund.css">
+        <script src="../jquery/jquery-1.11.2.js"></script>
     </head>
 
     <body>
@@ -23,7 +24,8 @@
                 <input type="text" name="roommates" placeholder="# of roommates">
                 <input type="text" name="zip" placeholder="zip code">
                 <br>
-                <input type="submit" value="How much would I save?">
+                <a href="#" id="showModal">How much would I save?</a>
+
             </form>
 
             <!--app store buttons-->
@@ -112,9 +114,26 @@
 
         <div id="footer">2015 Smart Utility System</div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="../jquery/jquery.avgrund.js-master/jquery.avgrund.js"></script>
         <script type="text/javascript" src="canvasjs/jquery.canvasjs.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="sus.js"></script>
+        <script>
+            $(function() {
+                $('#showModal').avgrund({
+                    height: 200,
+                    holderClass: 'custom',
+                    showClose: true,
+                    showCloseText: 'close',
+                    onBlurContainer: '.container',
+                    template: '<p>So implement your design and place content here! If you want to close modal, please hit "Esc", click somewhere on the screen or use special button.</p>' +
+                    '<div>' +
+                    '<a href="http://github.com/voronianski/jquery.avgrund.js" target="_blank" class="github">Avgrund on Github</a>' +
+                    '<a href="http://twitter.com/voronianski" target="_blank" class="twitter">Twitter</a>' +
+                    '<a href="http://dribbble.com/voronianski" target="_blank" class="dribble">Dribbble</a>' +
+                    '</div>'
+                });
+            });
+        </script>
     </body>
 </html>

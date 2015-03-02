@@ -1,3 +1,8 @@
+$(function(){
+    $("#showModal").avgrund();
+});
+
+
 window.onload = function () {
 		var chart = new CanvasJS.Chart("chartContainer",
     {
@@ -48,7 +53,7 @@ window.onload = function () {
     chart.render();
   }
 
-$('element').avgrund();
+
 
 	
 

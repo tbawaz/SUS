@@ -122,7 +122,7 @@ box-shadow: 1px 1px 1px black;
     margin:auto;
 }
 
-#compareInput input[type=submit]{
+#compareInput button{
     width:100%;
     margin:auto;
     border-style:none;
