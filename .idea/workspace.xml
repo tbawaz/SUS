@@ -4,7 +4,6 @@
     <list default="true" id="cb298749-f130-4d10-b3f9-b92160017ce2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suspage/SUS.html" afterPath="$PROJECT_DIR$/suspage/SUS.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suspage/sus.css" afterPath="$PROJECT_DIR$/suspage/sus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suspage/sus.js" afterPath="$PROJECT_DIR$/suspage/sus.js" />
     </list>
     <ignored path="SUS Repository.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +29,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.4934176">
       <split-first>
         <leaf>
-          <file leaf-file-name="SUS.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="SUS.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/suspage/SUS.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5068638" vertical-offset="0" max-vertical-offset="2175">
-                  <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+                <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="2220">
+                  <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -42,20 +41,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jquery/jquery.avgrund.js-master/example/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="2115">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="sus.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/suspage/sus.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="4035">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="4350">
                   <caret line="108" column="14" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
                   <folding />
                 </state>
@@ -85,6 +74,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jquery/jquery.avgrund.js-master/example/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.25531915" vertical-offset="495" max-vertical-offset="2115">
+                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider editor-type-id="MarkdownPreviewEditor">
@@ -102,21 +101,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="sus.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sus.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/suspage/sus.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="4035">
-                  <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.9401114" vertical-offset="1605" max-vertical-offset="4350">
+                  <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jquery/jquery.avgrund.js-master/example/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2534319" vertical-offset="15" max-vertical-offset="1275">
-                  <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+                <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1275">
+                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -133,9 +132,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/suspage/sus.css" />
         <option value="$PROJECT_DIR$/suspage/sus.js" />
         <option value="$PROJECT_DIR$/suspage/SUS.html" />
+        <option value="$PROJECT_DIR$/suspage/sus.css" />
       </list>
     </option>
   </component>
@@ -385,11 +384,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2756917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26284584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13638757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13638757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -496,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suspage/sus.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="4035">
-          <caret line="108" column="14" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/suspage/sus.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
@@ -512,29 +503,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery.avgrund.js-master/example/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2115">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery/jquery.avgrund.js-master/example/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2534319" vertical-offset="15" max-vertical-offset="1275">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suspage/SUS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5068638" vertical-offset="0" max-vertical-offset="2175">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="2220">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery.avgrund.js-master/example/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25531915" vertical-offset="495" max-vertical-offset="2115">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suspage/sus.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9401114" vertical-offset="1605" max-vertical-offset="4350">
+          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

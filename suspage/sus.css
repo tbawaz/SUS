@@ -122,8 +122,8 @@ box-shadow: 1px 1px 1px black;
     margin:auto;
 }
 
-#compareInput button{
-    width:100%;
+#compareInput a{
+
     margin:auto;
     border-style:none;
     background-color: black;
@@ -131,6 +131,27 @@ box-shadow: 1px 1px 1px black;
     width: 400px;
     height: 40px;
 }
+
+.buttons {
+    width: 390px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    background: #ED5E2F;
+    color: #FFF;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0 0 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
 .appStoreButtons{
     float:right;
     margin-top:50px;
