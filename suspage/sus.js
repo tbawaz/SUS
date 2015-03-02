@@ -48,6 +48,8 @@ window.onload = function () {
     chart.render();
   }
 
+$('element').avgrund();
+
 	
 
 
