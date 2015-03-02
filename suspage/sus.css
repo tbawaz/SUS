@@ -1,3 +1,7 @@
+#compareInput {
+    padding-top: 50px;
+}
+
 #header {
     background-image:url("black-white-city.png");
 	background-repeat: no-repeat;
@@ -6,7 +10,6 @@
 	width:100%;
 	height: 600px;
 }
-
 
 #section {
     width:100%;
@@ -103,16 +106,43 @@ width: 400px;
 height: 40px;
 margin-left: auto;
  margin-right: auto;
- margin-top: 50px;
  opacity: 0.9;
  filter: alpha(opacity=90); 
  font-weight: bold;
 box-shadow: 1px 1px 1px black;
 }
 
+#compareInput{
+    width: 30%;
+    margin: auto;
+}
+
+#compareInput input[type=text]{
+    width:45%;
+    margin:auto;
+}
+
+#compareInput input[type=submit]{
+    width:100%;
+    margin:auto;
+    border-style:none;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 40px;
+}
+.appStoreButtons{
+    float:right;
+    margin-top:50px;
+}
+
+.appStoreButtons a img{
+    width:200px;
+    margin:10px 50px 0 0;
+}
+
 
 .dl-now:hover{
-
 color: #94D60A;
 }
 
