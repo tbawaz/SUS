@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="../jquery/jquery.avgrund.js-master/style/avgrund.css">
         <script src="../jquery/jquery-1.11.2.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
@@ -13,23 +14,35 @@
                 <img src="susLogo.png" class="logo-img"></img>
                 <a class="sus-link" href="http://www.smartusys.com/products/scm.aspx">Visit SUS</a>
                 <a class="share-buttons" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=" target="_blank">
-                    <img src="Facebook.png">
+                    <img src="fbshare.png">
                 </a>
             </div>
-            <div class="jumbo-header-green">Smart</div><div class="jumbo-header">Customer Mobile</div>
+            <div class="jumbo-header-green">Smart</div><div class="jumbo-header">Customer</div><div class="jumbo-header-green">Mobile</div>
             <div class="head-text">The smart utility solution for smart energy usage</div>
 
             <!--value comparison feature-->
-            <form id="compareInput">
-                <input type="text" name="roommates" placeholder="# of roommates">
-                <input type="text" name="zip" placeholder="zip code">
+            <div class="value-comp">
+                <input type="text" class="zip" name="zip" placeholder="Enter zip code">
                 <br>
                 <div class="buttons">
-                    <a href="#" id="showModal" class="button">How much would I save?</a>
+                    <button class="dl-now" data-toggle="modal" data-target="#myModal">How much would I save?</button>
+					<!-- Modal -->
+						<div class="modal fade active" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+						  <div class="modal-dialog">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">How You could save</h4>
+							  </div>
+							  <div class="modal-body" style="height: 400px;">
+								Save $$$
+								<div id="chartContainer" style="position: centered; height: 100px; width: 50%;"></div>
+							  </div>
+							</div>
+						  </div>
+						</div>
                 </div>
-
-
-            </form>
+			</div>
 
             <!--app store buttons-->
             <div class="appStoreButtons">
@@ -45,33 +58,95 @@
         </div>
 
         <div id="section">
+		
+			<div class="content-container content-contain-small">
+			<div class="image-box14"></div>
+			<div class="section1-text-med">Usage</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+			<div class="image-box15"></div>
+			<div class="section1-text-med">Outage Alerts</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box6"></div>
+			 <div class="section1-text-med">Energy Efficiency</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box7"></div>
+			 <div class="section1-text-med">Connect Me</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box8"></div>
+			 <div class="section1-text-med">Billing</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box9"></div>
+			 <div class="section1-text-med">Demand Response</div>
+            </div>
+	
             <div class="content-container">
              <div class="section1-text">Save</div>
-             <div class="section1-text-med">Money, Time, Energy</div>
+             <div class="section1-text-med">Money, Time, Energy with Smart Customer Mobile</div>
              <div class="image-box"></div>
             </div>
 
             <div class="content-container">
              <div class="section1-text">Outage Reports</div>
-             <div class="section1-text-med">Never Be Left In The Dark</div>
+             <div class="section1-text-med">View outages and receive real-time updated restoration data</div>
              <div class="image-box2"></div>
             </div>
 
             <div class="content-container">
              <div class="section1-text">Track Your Usage</div>
-             <div class="section1-text-med">Conserve Energy, Make A Difference</div>
+             <div class="section1-text-med">Stay informed and help make a difference by conserving energy.</div>
              <div class="image-box3"></div>
             </div>
 
             <div class="content-container">
              <div class="section1-text">Stay Connected</div>
-             <div class="section1-text-med">Get Notifications On Utility Usage</div>
+             <div class="section1-text-med">Two-way real-time communication between customer and utilities.</div>
              <div class="image-box4"></div>
             </div>
 
             <a href="http://www.smartusys.com/products/scm.aspx">
              <button class="visit-now" >See what SUS has to offer</Button>
-            </a>
+            </a><br>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box10"></div>
+			 <div class="section1-text-med">Service</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box11"></div>
+			 <div class="section1-text-med">Electric Vehicle</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box12"></div>
+			 <div class="section1-text-med">Smart Home</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box13"></div>
+			 <div class="section1-text-med">My Account</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box5"></div>
+			 <div class="section1-text-med">Compare Spending</div>
+            </div>
+			
+			<div class="content-container content-contain-small">
+             <div class="image-box16"></div>
+			 <div class="section1-text-med">Notifications</div>
+            </div>
+			
         </div>
 
 
@@ -79,21 +154,23 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="http://www.smartusys.com/images/SCM_banner1.png" alt="...">
+              <img src="http://www.smartusys.com/images/SCM_banner1.png" style="width: 100%;"  alt="...">
               <div class="carousel-caption">
               </div>
             </div>
             <div class="item">
-              <img src="http://www.smartusys.com/images/SCM_banner4.png" alt="...">
+              <img src="http://www.smartusys.com/images/SCM_banner4.png" style="width: 100%;"  alt="...">
               <div class="carousel-caption">
               </div>
             </div>
             <div class="item">
-              <img src="http://www.smartusys.com/images/SCM_banner3.png" alt="...">
+              <img src="http://www.smartusys.com/images/SCM_banner3.png" style="width: 100%;" alt="...">
               <div class="carousel-caption">
               </div>
             </div>
           </div>
+
+
 
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -104,38 +181,23 @@
           </a>
         </div> <!-- Carousel -->
 
-
         <div id="section">
-            <h2>How You Can Save With Smart Utility Mobile</h2>
-            <div id="chartContainer" style="height: 200px; width: 50%;"></div>
+            <div class="section1-text">How You Can Save With Smart Customer Mobile</div>
+             <div class="section2-text-medium">Graphs and charts illustrating consumption, historical comparisons and current rates across all your utilities!</div>
+             <div class="app-box"></div>
+			 <div class="app-box2"></div>
+			 <div class="app-box3"></div>
+			 <div class="section2-text-medium">Keep track of your utility usage each month, compare monthly costs, and find ways to conserve utility usage with</div><a class="scm-link" href="http://www.smartusys.com/products/scm.aspx">Smart Customer Mobile!</a>
+
 
         </div>
 
-        <div id="section-blue">
-            <h2>SUS and Companies</h2>
-        </div>
-
-        <div id="footer">2015 Smart Utility System</div>
+	
+      
 
         <script src="../jquery/jquery.avgrund.js-master/jquery.avgrund.js"></script>
         <script type="text/javascript" src="canvasjs/jquery.canvasjs.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="sus.js"></script>
-        <script>
-            $(function() {
-                $('#showModal').avgrund({
-                    height: 200,
-                    holderClass: 'custom',
-                    showClose: true,
-                    showCloseText: 'close',
-                    onBlurContainer: '.container',
-                    template: '<p>So implement your design and place content here! If you want to close modal, please hit "Esc", click somewhere on the screen or use special button.</p>' +
-                    '<div>' +
-                    '<a href="http://github.com/voronianski/jquery.avgrund.js" target="_blank" class="appDownload">Get the App</a>' +
-                    '<a href="http://twitter.com/voronianski" target="_blank" class="friendShare">Share with your Roommates</a>' +
-                    '</div>'
-                });
-            });
-        </script>
     </body>
 </html>
