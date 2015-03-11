@@ -30,13 +30,6 @@
                         }
                 });
             }
-            /**
-             * Function that tracks a click on the "how much would i save?" button in Google Analytics.
-             */
-            var trackSavingButtonClick = document.getElementByID ('saveButton');
-            addListener(trackSavingButtonClick, 'click', function() {
-                ga('send', 'event', 'button', 'click', 'save-button')
-            });
         </script>
     </head>
 
@@ -55,7 +48,7 @@
 
             <!--value comparison feature-->
             <div class="value-comp">
-                <input type="text" class="zip" name="zip" placeholder="Enter zip code">
+                <input onblur="ga('send', 'pageview', 'landing?zipcodeText=' + this.value);" type="text" class="zip" name="zip" placeholder="Enter zip code">
                 <br>
                 <div class="buttons">
                     <button class="dl-now" data-toggle="modal" data-target="#myModal" id="saveButton">How much would I save?</button>
@@ -269,6 +262,18 @@
                 }
             }
         });
+
+        /**
+         * Function that tracks a click on the "how much would i save?" button in Google Analytics.
+         */
+        var trackSavingButtonClick = document.getElementById('saveButton');
+        addListener(trackSavingButtonClick, 'click', function() {
+            ga('send', 'event', 'button', 'click', 'save-button');
+        });
+        function addListener(element, type, callback) {
+            if (element.addEventListener) element.addEventListener(type, callback);
+            else if (element.attachEvent) element.attachEvent('on' + type, callback);
+        }
     </script>
 
 </html>
