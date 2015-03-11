@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb298749-f130-4d10-b3f9-b92160017ce2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SUS Repository.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +51,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.992032" vertical-offset="8" max-vertical-offset="4275">
-              <caret line="268" column="72" selection-start-line="268" selection-start-column="72" selection-end-line="268" selection-end-column="72" />
+            <state vertical-scroll-proportion="7.858566" vertical-offset="0" max-vertical-offset="4275">
+              <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -439,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.992032" vertical-offset="8" max-vertical-offset="4275">
-          <caret line="268" column="72" selection-start-line="268" selection-start-column="72" selection-end-line="268" selection-end-column="72" />
+        <state vertical-scroll-proportion="7.858566" vertical-offset="0" max-vertical-offset="4275">
+          <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
           <folding />
         </state>
       </provider>
