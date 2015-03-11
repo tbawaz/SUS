@@ -6,15 +6,48 @@
         <link rel="stylesheet" href="../jquery/jquery.avgrund.js-master/style/avgrund.css">
         <script src="../jquery/jquery-1.11.2.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <!--main google analytics code snippet-->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-60600349-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!--google analyitcs code snippet for tracking outbound links-->
+        <script>
+            /**
+             * Function that tracks a click on an outbound link in Google Analytics.
+             * This function takes a valid URL string as an argument, and uses that URL string
+             * as the event label.
+             */
+            var trackOutboundLink = function(url) {
+                ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+                        function () {
+                            document.location = url;
+                        }
+                });
+            }
+            /**
+             * Function that tracks a click on the "how much would i save?" button in Google Analytics.
+             */
+            var trackSavingButtonClick = document.getElementByID ('saveButton');
+            addListener(trackSavingButtonClick, 'click', function() {
+                ga('send', 'event', 'button', 'click', 'save-button')
+            });
+        </script>
     </head>
 
     <body>
         <div id="header">
             <div class="top-nav">
                 <img src="susLogo.png" class="logo-img"></img>
-                <a class="sus-link" href="http://www.smartusys.com/products/scm.aspx">Visit SUS</a>
-                <a class="share-buttons" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=" target="_blank">
-                    <img src="fbshare.png">
+                <a class="sus-link" href="http://www.smartusys.com/products/scm.aspx" onclick="trackOutboundLink('http://www.smartusys.com/products/scm.aspx');
+                return false;">Visit SUS</a>
+                <a class="share-buttons" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=" onclick="trackOutboundLink('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=');
+                return false;"target="_blank"> <img src="fbshare.png">
                 </a>
             </div>
             <div class="jumbo-header-green">Smart</div><div class="jumbo-header">Customer</div><div class="jumbo-header-green">Mobile</div>
@@ -25,7 +58,7 @@
                 <input type="text" class="zip" name="zip" placeholder="Enter zip code">
                 <br>
                 <div class="buttons">
-                    <button class="dl-now" data-toggle="modal" data-target="#myModal">How much would I save?</button>
+                    <button class="dl-now" data-toggle="modal" data-target="#myModal" id="saveButton">How much would I save?</button>
 					<!-- Modal -->
 						<div class="modal fade active" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
 						  <div class="modal-dialog">
@@ -46,11 +79,11 @@
 
             <!--app store buttons-->
             <div class="appStoreButtons">
-                <a href="https://itunes.apple.com/us/app/linksys-smart-wi-fi/id533516503?mt=8">
+                <a href="https://itunes.apple.com/us/app/linksys-smart-wi-fi/id533516503?mt=8" onclick="trackOutboundLink('https://itunes.apple.com/us/app/linksys-smart-wi-fi/id533516503?mt=8'); return false;">
                     <img src="img/available-on-the-app-store-badge.png">
                 </a>
                 <br>
-                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en">
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en" onclick="trackOutboundLink('https://play.google.com/store/apps/details?id=com.instagram.android&hl=en');return false;">
                     <img src="img/Get-it-on-Google-Play.png">
                 </a>
 
@@ -113,7 +146,8 @@
              <div class="image-box4"></div>
             </div>
 
-            <a href="http://www.smartusys.com/products/scm.aspx">
+            <a href="http://www.smartusys.com/products/scm.aspx" onclick="trackOutboundLink('http://www.smartusys.com/products/scm.aspx');
+                return false;">
              <button class="visit-now" >See what SUS has to offer</Button>
             </a><br>
 			
@@ -187,7 +221,9 @@
              <div class="app-box"></div>
 			 <div class="app-box2"></div>
 			 <div class="app-box3"></div>
-			 <div class="section2-text-medium">Keep track of your utility usage each month, compare monthly costs, and find ways to conserve utility usage with</div><a class="scm-link" href="http://www.smartusys.com/products/scm.aspx">Smart Customer Mobile!</a>
+			 <div class="section2-text-medium">Keep track of your utility usage each month, compare monthly costs, and find ways to conserve utility usage with</div>
+            <a class="scm-link" href="http://www.smartusys.com/products/scm.aspx" onclick="trackOutboundLink('http://www.smartusys.com/products/scm.aspx');
+                return false;">Smart Customer Mobile!</a>
 
 
         </div>
@@ -200,4 +236,39 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="sus.js"></script>
     </body>
+    
+
+    <script language="javascript">
+        //*****************************************************************
+        //     This script is used and customized to measure the page scroll / interaction with Google Universal Analytics.
+        //     Author: E-Nor Inc.
+        //     Created By: Mohamed Adel
+        //     Last Update: 04/25/2014
+
+        //*****************************************************************
+        /** Predefined variables **/
+        EventNONInteraction = false; // This variable determines the event will be a noninertact event or not
+        Frequency = 10; // This variable determines the Frequency the event will be fired, MAKE SURE THE NUMBER ENTERED CAN BE DIVIDED BY 100 (10 means each 10 precent the event will fire)
+
+        GA_EventCategory = 'Page Interaction'; // Google Analytics event category
+        GA_EventAction = 'Scroll Down'; // Google Analytics event action.
+
+        /************ DON'T EDIT BELOW THIS PART ************/
+        _frequency = Frequency;
+        _repentance = 100 / Frequency;
+        var _scrollMatrix = new Array();
+        for (ix = 0; ix < _repentance; ix++) {
+            _scrollMatrix[ix] = [_frequency, 'false'];
+            _frequency = Frequency + _frequency;
+        }
+        $(document).scroll(function (e) {
+            for (iz = 0; iz < _scrollMatrix.length; iz++) {
+                if (($(window).scrollTop() + $(window).height() >= $(document).height() * _scrollMatrix[iz][0] / 100)  && (_scrollMatrix[iz][1]== 'false')) {
+                    _scrollMatrix[iz][1] = 'true';
+                    ga('send', 'event', GA_EventCategory, GA_EventAction, _scrollMatrix[iz][0]+'%', {'nonInteraction': EventNONInteraction});
+                }
+            }
+        });
+    </script>
+
 </html>
