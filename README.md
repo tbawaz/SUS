@@ -11,5 +11,5 @@ Faraz Ahmad
 Tristan Biles
 
 ### Instructions to run Project ###
-    1. Open SUS.html
-    2. Interact in browser
+    1. Open index.html
+    
