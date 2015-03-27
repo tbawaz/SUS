@@ -32,21 +32,22 @@
             }
         </script>
     </head>
-
+<!-- begin body -->
     <body>
         <div id="header">
             <div class="top-nav">
-                <img src="suspage/susLogo.png" class="logo-img"></img>
+                <img src="suspage/img/susLogo.png" class="logo-img"></img>
                 <a class="sus-link" href="http://www.smartusys.com/products/scm.aspx" onclick="trackOutboundLink('http://www.smartusys.com/products/scm.aspx');
                 return false;">Visit SUS</a>
                 <a class="share-buttons" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=" onclick="trackOutboundLink('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyurl&t=');
-                return false;"target="_blank"> <img src="suspage/fbshare.png">
+                return false;"target="_blank"> <img src="suspage/img/fbshare.png">
                 </a>
             </div>
             <div class="jumbo-header-green">Smart</div><div class="jumbo-header">Customer</div><div class="jumbo-header-green">Mobile</div>
             <div class="head-text">The smart utility solution for smart energy usage</div>
 
-            <!--value comparison feature-->
+			
+            <!--OPTIONAL : value comparison feature-->
             <div class="value-comp">
                 <input onblur="ga('send', 'pageview', 'landing?zipcodeText=' + this.value);" type="text" class="zip" name="zip" placeholder="Enter zip code">
                 <br>
@@ -60,31 +61,34 @@
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								<h4 class="modal-title" id="myModalLabel">How You could save</h4>
 							  </div>
-							  <div class="modal-body" style="height: 400px;">
+							  <div class="modal-body" style="height: 500px;">
 								Save $$$
-								<div id="chartContainer" style="position: centered; height: 100px; width: 50%;"></div>
+								<div id="chartContainer" style="position: centered; margin:auto; height: 60%; width: 90%;"></div>
 							  </div>
 							</div>
 						  </div>
 						</div>
                 </div>
 			</div>
+			 <!--END ---- OPTIONAL : value comparison feature-->
 
             <!--app store buttons-->
             <div class="appStoreButtons">
+			<!-- Input app store link -->
                 <a href="https://itunes.apple.com/us/app/linksys-smart-wi-fi/id533516503?mt=8" onclick="trackOutboundLink('https://itunes.apple.com/us/app/linksys-smart-wi-fi/id533516503?mt=8'); return false;">
                     <img src="suspage/img/available-on-the-app-store-badge.png">
                 </a>
                 <br>
+				<!-- Input google play link -->
                 <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en" onclick="trackOutboundLink('https://play.google.com/store/apps/details?id=com.instagram.android&hl=en');return false;">
                     <img src="suspage/img/Get-it-on-Google-Play.png">
                 </a>
-
             </div>
+			<!--END ---- app store buttons-->
         </div>
 
         <div id="section">
-		
+			<!-- modules -->
 			<div class="content-container content-contain-small">
 			<div class="image-box14"></div>
 			<div class="section1-text-med">Usage</div>
@@ -114,7 +118,9 @@
              <div class="image-box9"></div>
 			 <div class="section1-text-med">Demand Response</div>
             </div>
+			<!--END --- modules -->
 	
+			<!-- key features -->
             <div class="content-container">
              <div class="section1-text">Save</div>
              <div class="section1-text-med">Money, Time, Energy with Smart Customer Mobile</div>
@@ -138,12 +144,14 @@
              <div class="section1-text-med">Two-way real-time communication between customer and utilities.</div>
              <div class="image-box4"></div>
             </div>
+			<!--END ---- key features -->
 
             <a href="http://www.smartusys.com/products/scm.aspx" onclick="trackOutboundLink('http://www.smartusys.com/products/scm.aspx');
                 return false;">
              <button class="visit-now" >See what SUS has to offer</Button>
             </a><br>
 			
+			<!-- modules-->
 			<div class="content-container content-contain-small">
              <div class="image-box10"></div>
 			 <div class="section1-text-med">Service</div>
@@ -173,32 +181,29 @@
              <div class="image-box16"></div>
 			 <div class="section1-text-med">Notifications</div>
             </div>
-			
+			<!--END ---- modules-->
         </div>
 
-
+		<!-- Carousel -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="http://www.smartusys.com/images/SCM_banner1.png" style="width: 100%;"  alt="...">
+              <img src="suspage/img/SCM_banner1.png" style="width: 100%;"  alt="...">
               <div class="carousel-caption">
               </div>
             </div>
             <div class="item">
-              <img src="http://www.smartusys.com/images/SCM_banner4.png" style="width: 100%;"  alt="...">
+              <img src="suspage/img/SCM_Banner4.png" style="width: 100%;"  alt="...">
               <div class="carousel-caption">
               </div>
             </div>
             <div class="item">
-              <img src="http://www.smartusys.com/images/SCM_banner3.png" style="width: 100%;" alt="...">
+              <img src="suspage/img/SCM_Banner3.png" style="width: 100%;" alt="...">
               <div class="carousel-caption">
               </div>
             </div>
           </div>
-
-
-
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
@@ -206,24 +211,25 @@
           <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
             <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
           </a>
-        </div> <!-- Carousel -->
+        </div> 
+		<!--END ---- Carousel -->
 
+		<!-- How You can save Section-->
         <div id="section">
             <div class="section1-text">How You Can Save With Smart Customer Mobile</div>
              <div class="section2-text-medium">Graphs and charts illustrating consumption, historical comparisons and current rates across all your utilities!</div>
+			 <!-- App Pictures-->
              <div class="app-box"></div>
 			 <div class="app-box2"></div>
 			 <div class="app-box3"></div>
 			 <div class="section2-text-medium">Keep track of your utility usage each month, compare monthly costs, and find ways to conserve utility usage with</div>
             <a class="scm-link" href="http://www.smartusys.com/products/scm.aspx" onclick="trackOutboundLink('http://www.smartusys.com/products/scm.aspx');
                 return false;">Smart Customer Mobile!</a>
-
-
         </div>
-
+		<!--END ---- How You can save Section-->
 	
       
-
+		<!--Scripts-->
         <script src="jquery/jquery.avgrund.js-master/jquery.avgrund.js"></script>
         <script type="text/javascript" src="suspage/canvasjs/jquery.canvasjs.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
